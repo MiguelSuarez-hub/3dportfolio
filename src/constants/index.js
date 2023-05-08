@@ -1,19 +1,16 @@
 import {
-  mobile,
-  backend,
-  creator,
+  angular,
+  frontend,
   web,
   javascript,
   typescript,
   html,
   css,
   reactjs,
-  redux,
+  bootstrap,
   tailwind,
   nodejs,
-  mongodb,
   git,
-  figma,
   docker,
   meta,
   starbucks,
@@ -47,15 +44,15 @@ const services = [
   },
   {
     title: "FrontEnd Developer",
-    icon: mobile,
+    icon: frontend,
   },
   {
     title: "React Developer",
-    icon: creator,
+    icon: reactjs,
   },
   {
-    title: "BackEnd Developer",
-    icon: backend,
+    title: "Angular Developer",
+    icon: angular,
   },
 ];
 
@@ -81,8 +78,8 @@ const technologies = [
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
+    name: "Bootstrap",
+    icon: bootstrap,
   },
   {
     name: "Tailwind CSS",
@@ -93,8 +90,8 @@ const technologies = [
     icon: nodejs,
   },
   {
-    name: "MongoDB",
-    icon: mongodb,
+    name: "Angular JS",
+    icon: angular,
   },
   {
     name: "Three JS",
@@ -103,10 +100,6 @@ const technologies = [
   {
     name: "git",
     icon: git,
-  },
-  {
-    name: "figma",
-    icon: figma,
   },
   {
     name: "docker",
@@ -216,6 +209,7 @@ const projects = [
       },
     ],
     image: carrent,
+    project_link: "https://www.google.com/",
     source_code_link: "https://github.com/",
   },
   {
@@ -237,6 +231,7 @@ const projects = [
       },
     ],
     image: jobit,
+    project_link: "https://www.google.com/",
     source_code_link: "https://github.com/",
   },
   {
@@ -258,6 +253,7 @@ const projects = [
       },
     ],
     image: tripguide,
+    project_link: "https://www.google.com/",
     source_code_link: "https://github.com/",
   },
 ];
