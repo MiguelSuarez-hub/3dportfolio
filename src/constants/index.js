@@ -16,10 +16,9 @@ import {
   starbucks,
   tesla,
   shopify,
-  carrent,
-  jobit,
-  tripguide,
   threejs,
+  nextapp,
+  gpt3,
 } from "../assets";
 
 export const navLinks = [
@@ -191,34 +190,34 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "GPT 3 Clone",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Web-based platform, with responsive design, that allows user to navigate in the page, developed with Vite, react and BEM metodologies for Styles, deployed in netlify.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "Vite",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "CSS-BEM",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    project_link: "https://www.google.com/",
-    source_code_link: "https://github.com/",
+    image: gpt3,
+    project_link: "https://tourmaline-bienenstitch-b07c8f.netlify.app",
+    source_code_link: "https://github.com/MiguelSuarez-hub/gpt3-ms",
   },
   {
-    name: "Job IT",
+    name: "Nextjs App",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Web aplication developed with app router from Nextjs 13, allows user to watch a list of users, and the user details in another page, styled with bootstrap, deployed in vercel.",
     tags: [
       {
-        name: "react",
+        name: "Next",
         color: "blue-text-gradient",
       },
       {
@@ -226,36 +225,36 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "Bootstrap",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    project_link: "https://www.google.com/",
-    source_code_link: "https://github.com/",
+    image: nextapp,
+    project_link: "https://nextjs-app-nu.vercel.app",
+    source_code_link: "https://github.com/MiguelSuarez-hub/nextjs_app",
   },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: tripguide,
-    project_link: "https://www.google.com/",
-    source_code_link: "https://github.com/",
-  },
+  // {
+  //   name: "Trip Guide",
+  //   description:
+  //     "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+  //   tags: [
+  //     {
+  //       name: "nextjs",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "supabase",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "css",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: tripguide,
+  //   project_link: "https://www.google.com/",
+  //   source_code_link: "https://github.com/",
+  // },
 ];
 
 export { services, technologies, experiences, testimonials, projects };

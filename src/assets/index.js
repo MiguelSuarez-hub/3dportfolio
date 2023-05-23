@@ -24,6 +24,8 @@ import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 
+import gpt3 from './gpt3.png';
+import nextapp from './nextapp.png';
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
@@ -52,6 +54,8 @@ export {
   shopify,
   starbucks,
   tesla,
+  gpt3,
+  nextapp,
   carrent,
   jobit,
   tripguide,
